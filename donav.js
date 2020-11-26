@@ -1,3 +1,15 @@
+let output = document.querySelector('.debugger');
+if (output) {
+  list.addEventListener('click', e => {
+    if (e.target.nodeName === 'A') {
+      output.innerHTML = `This would go to ${e.target.href}`;
+      e.preventDefault();
+    } else {
+      output.innerHTML = 'Button clicked';
+    }
+  });
+}
+
 let steps = [
   '1-unstyled.html',
   '2-clickable-card.html',
@@ -23,3 +35,5 @@ steps.forEach(s => {
 });
 navlist.innerHTML = out;
 document.body.appendChild(nav)
+
+
