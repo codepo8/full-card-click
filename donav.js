@@ -18,7 +18,8 @@ let steps = [
   '5-adding-hover-effects.html',
   '6-hiding-on-click.html',
   '7-hiding-smoothly-on-click.html',
-  '8-final.html'
+  '8-final.html',
+  '9-debug.html'
 ];
 let nav = document.createElement('nav');
 let navlist = document.createElement('ul');
