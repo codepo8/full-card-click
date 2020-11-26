@@ -1,0 +1,40 @@
+body {
+  font-family: segoe ui, helvetica, sans-serif;
+  background: #333;
+  color: rgb(189 198 207);
+  margin: 2em;
+}
+h1 {
+  font-size: 1.2em;
+  margin: 0 0 .5em 0;
+}
+h2 {
+  font-size: 1.1em;
+  margin: 0 0 .5em 0;
+}
+nav {
+  display: block;
+  border-top: 1px solid #ccc;
+  margin-top: 3em;
+}
+nav ul {
+  margin: .5em 0 0 1.5em;
+  padding: .5em;
+}
+nav ul a {
+  color: #85baff;
+  text-decoration: none;
+}
+nav ul li.current {
+  list-style-type: '👋🏻';
+}
+nav ul li:hover {
+  list-style-type: '👉🏻';
+}
+nav ul li {
+  list-style-type: '';
+  text-transform: capitalize;
+  list-style: none;
+  line-height: 1.3;
+  padding: 0 0 .5em 1em;
+}
