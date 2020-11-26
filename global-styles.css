@@ -16,6 +16,7 @@ nav {
   display: block;
   border-top: 1px solid #ccc;
   margin-top: 3em;
+  background: #000;
 }
 nav ul {
   margin: .5em 0 0 1.5em;
@@ -44,4 +45,27 @@ output {
 }
 output::before {
   content: 'Debugger: ';
+}
+.index {
+  background: #000;
+}
+.index a {
+  color: #85baff;
+}
+.index img {
+  display: block;
+}
+
+.index {
+  display: flex;
+  gap: 20px;
+}
+
+.index section {
+  flex: 1;
+}
+.index nav {
+  flex: 1;
+  border-top: none;
+  background: #333;
 }
